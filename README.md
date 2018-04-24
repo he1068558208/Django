@@ -1,7 +1,10 @@
 # Django
 MVC:Model View Controller
+
 MVT:Model View Template
+
 B/S:Browser Server
+
 C/S:Client Server
 
 安装虚拟环境:pip install virtualenv
@@ -40,8 +43,8 @@ app:__init__.py 初始化,配置pymysql链接的地方
 
 admin.py:管理后台注册模型
 
-apps.py:settings.py里面注册app的时候需要使用到。一般不推荐这样使用
-		               配置信息位置，databases等
+apps.py:settings.py里面注册app的时候需要使用到。一般不推荐这样使用。
+		               配置信息位置，databases等
 
 urls.py:url路由
 
